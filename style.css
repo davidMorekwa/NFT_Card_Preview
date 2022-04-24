@@ -1,0 +1,144 @@
+
+body{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+.card{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    height: 650px;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding-bottom: 2%;
+    box-shadow: 0px 25px 15px 10px hsl(216, 54%, 10%);
+}
+.image{
+    top: 4%;
+    width: 85%;
+    height: 50%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 7%;
+    border-radius: 4.5%;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    border-radius: 4.5%;
+}
+.description{
+    margin-left: 8%;
+    margin-top: 2%;
+    width: 89%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.description #p1 p{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    top: 15%;
+    width: 53%;
+    margin: 0%;
+}
+.description #p1 p:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.description #p1{
+    height: 25%;
+    margin-bottom: 4%;
+}
+.description #p2 p{
+    margin-top: 2%;
+    font-size: 16px;
+    font-weight: 300;
+    color:hsl(217, 40%, 63%);
+}
+.saleInfo {
+    margin-left: 8%;
+    margin-right: 12%;
+    width: 89%;
+    height: 10%;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.saleInfo #price{
+    display: flex;
+}
+.saleInfo #price img{
+    padding-top: 18%;
+    margin-right: 3%;
+    height: 45%;
+}
+.saleInfo #price p{
+    color: aqua;
+}
+.saleInfo #time{
+    display: flex;
+    flex-direction: row;
+    height: 95%;
+    top: 10%;
+    margin-right: 5%;
+}
+.saleInfo #time p{
+    color: hsl(217, 40%, 63%);
+    text-align: right;
+}
+.saleInfo #time img{
+    height: fit-content;
+    margin-top: 17px;
+    margin-right: 0%;
+}
+#line{
+    border-bottom: 0.5px solid hsl(219, 21%, 27%);
+    width: 85%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.creator{
+    margin-left: 8%;
+    width: 89%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.creator img{
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 4%;
+    width: 10%;
+    height: 5%;
+}
+.creator #name p{
+    color: white;
+}
+.creator #p1{
+    margin-right: 1%;
+    margin-left: 2%;
+}
+.creator #p1 p{
+    color: hsl(217, 40%, 63%);
+}
+.creator #name p:hover{
+    cursor: pointer;
+    color: aqua;
+}
+@media only screen and (max-width: 800px) {
+    .card {
+        width: 70%;
+    }
+}
