@@ -123,7 +123,7 @@ body{
     width: 10%;
     height: 5%;
 }
-.creator #name p{
+#name {
     color: white;
 }
 .creator #p1{
@@ -133,7 +133,7 @@ body{
 .creator #p1 p{
     color: hsl(217, 40%, 63%);
 }
-.creator #name p:hover{
+#name:hover{
     cursor: pointer;
     color: aqua;
 }
